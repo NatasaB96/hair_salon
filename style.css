@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+nav .bg-light { background-color: transparent !important;
+}
+
+.navbar-brand{
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+}
+
+.nav-item a{
+    text-transform: uppercase;
+}
+
+.nav-item a:hover{
+    color: #8bc34a !important;
+}
+
+.carousel-caption{
+    top: 25% !important;
+}
+
+/* Welcome */
+.welcome h2{
+    font-size: 3rem;
+}
+
+.welcome h2 span{
+    font-style: italic;
+    color: #8bc34a;
+    font-weight: bold;
+}
+
+.welcome a{
+    color: #8bc34a ;
+}
+
+.welcome h3{
+    color: #8bc34a ;
+}
+
+.welcome p span{
+    font-weight: bold;
+}
+
+/* featured services  */
+
+.services i{
+    color: #8bc34a ;
+}
+
+.services h4{
+    font-size: 2rem;
+}
+
+.services .underline{
+    background: #8bc34a;
+    border: 2px solid #8bc34a;
+    width: 20%;
+    
+}
+
+/* New Hairstyle  */
+
+.hairstyle .left-underline{
+    background: #8bc34a;
+    border: 1px solid #8bc34a;
+    width: 20%
+}
+
+.hairstyle .col-md-5{
+    background: white;
+    height: 50%;
+    padding: 50px;
+    margin: 150px 0 0 -100px;
+}
+
+/* jumbotron  */
+.experience{
+    background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(img/experience.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+/* footer  */
+.contact a{
+    color: lightgray;
+    text-decoration: none;
+}
+
+.contact input[type="submit"]{
+    position: relative;
+    top: -2px;
+    left: -6px;
+}
+
+footer a{
+    color: white;
+}
